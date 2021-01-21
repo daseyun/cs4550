@@ -11,7 +11,7 @@ vultr, namecheap
 danyun.me
 
 4. What's the URL of your Github repository for this assignment?
-https://github.com/daseyun/cs4550/hw01
+https://github.com/daseyun/cs4550/tree/main/hw01
 
 5. Which parts of this assignment did you have trouble with, if any?
 setting up subdomain names. 
