@@ -1,0 +1,33 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+Seokju Yun (Daniel)
+
+2. Which VPS & domain providers did you choose?
+vultr, namecheap
+
+3. What domain name did you register?
+danyun.me
+
+4. What's the URL of your Github repository for this assignment?
+https://github.com/daseyun/cs4550/
+
+5. Which parts of this assignment did you have trouble with, if any?
+setting up subdomain names. 
+instructions were vague and didn't paint a full picture.
+(especially for those new to this stuff)
+Had to play around with it a lot as well as reference piazza multiple
+times. 
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
+ - Task 9
