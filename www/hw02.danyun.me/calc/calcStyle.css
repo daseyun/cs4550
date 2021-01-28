@@ -1,0 +1,33 @@
+th,
+td {
+  border: 1px solid black;
+  padding: 40px;
+  text-align: center;
+}
+
+/* box-sizing https://www.w3schools.com/css/css3_box-sizing.asp */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  box-sizing: inherit;
+}
+
+.container {
+  width: 400px;
+  box-sizing: border-box;
+}
+
+#numberField {
+  box-sizing: inherit;
+  height: 100px;
+  border: 1px solid black;
+  text-align: right;
+  line-height: 100px;
+  padding: 10px;
+}
+
+#clear,
+.operator {
+  background-color: lightsalmon;
+}

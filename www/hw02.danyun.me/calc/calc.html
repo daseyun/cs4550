@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcStyle.css">
+</head>
+
+<body>
+    <a href="../index.html">hw02 main page</a>
+    <br />
+    <div class="container">
+        <!-- Number display -->
+        <div id="numberField"></div>
+        <!-- keypads -->
+        <table>
+            <tr>
+                <td id="7">7</td>
+                <td id="8">8</td>
+                <td id="9">9</td>
+                <td class="operator" id="addOrEquals">+/=</td>
+            </tr>
+            <tr>
+                <td id="4">4</td>
+                <td id="5">5</td>
+                <td id="6">6</td>
+                <td class="operator" id="subtract">-</td>
+            </tr>
+            <tr>
+                <td id="1">1</td>
+                <td id="2">2</td>
+                <td id="3">3</td>
+                <td class="operator" id="multiply">x</td>
+            </tr>
+            <tr>
+                <td id="clear">C</td>
+                <td id="0">0</td>
+                <td id="decimalDot">.</td>
+                <td class="operator" id="divide">÷</td>
+            </tr>
+
+        </table>
+    </div>
+    <div>
+        <p>Notes:</p>
+        <ul>
+            <li>Display is updated when '+/=' is pressed.</li>
+            <li>Negative input possible.</li>
+            <li>Calculations are done instantly. (No pemdas)</li>
+            <li>Character digit limits at 21.</li>
+            <li>Numbers that overflow are represented in scientific notation.</li>
+            <li>To start another calculation, press C to reset any residual operations (ie. addition).</li>
+        </ul>
+        <p>For more details and design statements:
+            <a href="README.md">README</a>
+            <br />
+            <a href="https://github.com/daseyun/cs4550/www/hw02.danyun.me/calc/README.md">(Alternative link:) Github
+                Hosted</a>
+        </p>
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>
