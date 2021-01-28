@@ -85,7 +85,7 @@
       }
     }
 
-    // handle '.'' cases
+    // handle '.' cases
     if (this.innerText === ".") {
       if (displayNumber.includes(".")) {
         return;
